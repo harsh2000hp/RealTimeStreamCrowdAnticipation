@@ -1,1 +1,1 @@
-Sleeping Frames: 70
+Sleeping Frames: 25

@@ -2,6 +2,16 @@ from flask import Flask, render_template, Response
 import cv2
 from gaze_tracking import GazeTracking
 import datetime
+import bz2
+
+#decompress data
+with bz2.open('gaze_tracking/trained_models/shape_predictor_68_face_landmarks.dat.bz2', 'rb') as f:
+    uncompressed_content = f.read()
+
+#store decompressed file
+with open('gaze_tracking/trained_models/shape_predictor_68_face_landmarks.dat', 'wb') as f:
+   f.write(uncompressed_content)
+   f.close()
 app = Flask(__name__)
 gaze = GazeTracking()
 camera = cv2.VideoCapture(0)# use 0 for web camera
