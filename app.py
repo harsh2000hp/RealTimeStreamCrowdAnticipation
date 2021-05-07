@@ -7,7 +7,7 @@ gaze = GazeTracking()
 camera = cv2.VideoCapture(0)# use 0 for web camera
 attentionPercentage = 0
 
-
+# HArsh PAtel
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
 # for local webcam use cv2.VideoCapture(0)
 
