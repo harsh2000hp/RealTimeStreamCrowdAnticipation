@@ -1,0 +1,6 @@
+73.78048780487805
+Central Frames: 121
+Left Frames: 7
+Right Frames: 0
+Sleeping Frames: 28
+Vison Not Found Frames: 8
