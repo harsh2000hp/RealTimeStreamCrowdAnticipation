@@ -5,7 +5,7 @@ import datetime
 
 app = Flask(__name__)
 gaze = GazeTracking()
-camera = cv2.VideoCapture(0)# use 0 for web camera
+camera = cv2.VideoCapture(-1)# use 0 for web camera
 attentionPercentage = 0
 
 # HArsh PAtel
