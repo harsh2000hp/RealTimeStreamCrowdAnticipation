@@ -1,1 +1,1 @@
-AttentionPercentage: 83.68298368298369
+AttentionPercentage: 73.24561403508773
