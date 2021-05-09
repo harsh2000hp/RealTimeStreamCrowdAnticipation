@@ -2,7 +2,7 @@ from flask import Flask, render_template, Response
 import cv2
 from gaze_tracking import GazeTracking
 import datetime 
-from camera import Camera
+
 
 app = Flask(__name__)
 gaze = GazeTracking()
