@@ -3,7 +3,7 @@ import cv2
 from gaze_tracking import GazeTracking
 import datetime 
 
-
+#vefification just ignore it
 app = Flask(__name__)
 gaze = GazeTracking()
 camera = cv2.VideoCapture(1)
